@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="caja uno">
+    <h3>Formulario de Acceso</h3>
+    <form action="" method="get" name="formulario1">
+      <div>
+        <br>
+        usuario: <input type="text" name="nombre" placeholder="Ingrese el usuario" required><br><br>
+        clave: <input type="password" name="clave" required><br><br>
+      </div>
+      <div class="botones">
+        <input type="submit" value="Aceptar" class="btn">
+        <input type="submit" value="Borrar" class="btn">
+      </div>
+    </form>
+  </div>
+  <div class="caja dos">
+    <h3>Datos de texto</h3>
+    <form action="" method="get" name="formulario2">
+      <div>
+        <br>
+        nombre <input type="text" name="nombre" placeholder="Ingrese nombre" required><br><br>
+        email <input type="email" name="correo" placeholder="usuario@dominio.com" required><br><br>
+        buscar <input type="search" name="busqueda" placeholder="buscar"><br><br>
+        celular <input type="tel" name="celular" placeholder="999 999 999"><br><br>
+        web <input type="url" name="web" placeholder="http://www.dominio.com"><br><br>
+      </div>
+      <div class="botones">
+        <input type="submit" value="Aceptar" class="btn">
+        <input type="submit" value="Borrar" class="btn">
+      </div>
+    </form>
+  </div>
+  <div class="caja tres">
+    <h3>Datos numericos</h3>
+    <form action="" name="formulario3" method="get">
+      <div>
+        <br>
+        Salario <input type="number" name="sueldo" min="1000" max="3000" step="50"><br><br>
+        Edad <input type="range" name="edad" min="18" max="65" step="1"><br><br>
+      </div>
+      <div class="botones">
+        <input type="submit" value="Aceptar" class="btn">
+        <input type="submit" value="Borrar" class="btn">
+      </div>
+    </form>
+  </div>
+  <div class="caja cuatro">
+    <h3>Datos de Fecha y hora</h3>
+    <form action="" name="formulrio4" method="get">
+      <br>
+      Fecha <input type="date" name="fnac" min="2007-01-01" max="2023-12-31" step="1"><br><br>
+      hora <input type="time" name="hnac" min="09:00" max="23:59" step="3600"><br><br>
+      Mes <input type="month" name="mes"><br><br>
+      Semana <input type="week" name="semana"><br><br>
+      <div class="botones">
+        <input type="submit" value="Aceptar" class="btn">
+        <input type="submit" value="Borrar" class="btn">
+      </div>
+    </form>
+  </div>
+  <div class="caja cinco">
+    <h3>Datos con selección</h3>
+    <form action="" name="formulario5" method="get">
+      <br>
+      <p>Comida Favorita:</p>
+      <input type="checkbox" name="comida" value="marina">Marina<br>
+      <input type="checkbox" name="comida" value="pasta">Pasta<br>
+      <input type="checkbox" name="comida" value="parrilla" checked>Parrilla<br><br>
+      <p>Genero</p>
+      <input type="radio" name="sexo" value="M">Masculino<br>
+      <input type="radio" name="sexo" value="F" checked>Femenino<br>
+      <input type="radio" name="sexo" value="M">No deseo indicar<br><br>
+      <p>Pais de Origen</p>
+      <select name="pais">
+        <option value="colombia">Colombia</option>
+        <option value="venezuela">Venezuela</option>
+        <option value="peru" selected>Perú</option>
+        <option value="ecuador">Ecuador</option>
+        <option value="otros">Otros</option>
+      </select>
+      <br><br><br><br>
+      <div class="botones">
+        <input type="submit" value="Aceptar" class="btn">
+        <input type="submit" value="Borrar" class="btn">
+      </div>
+
+
+
+    </form>
+
+  </div>
+  
+</body>
+</html>

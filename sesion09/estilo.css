@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: cadetblue;
+}
+.caja{
+  width:300px; 
+  border:1px solid black;
+  margin:20px auto;
+  background-color: darkgray;
+  padding:20px;
+  box-shadow: 10px 10px 4px black;
+  
+}
+.caja h3,.botones{
+  text-align: center;
+}
+.btn{
+  color:white;
+  background-color: black;
+  padding: 5px;
+  margin:5px
+}
+#contenedor{
+  width: 75%;
+  height: 600px;
+  margin: 20px auto;
+  border:1px solid white;
+ 
+}
+#mapa{
+  width:400px;  
+  border:1px solid yellow;
+  margin: 25px auto;  
+
+}
+iframe{
+  width:100%;
+
+}
+table{
+  border:1px solid red;
+  padding:15px;
+  border-collapse: collapse;
+  margin:20px
+}
+td,th{
+  border:1px solid white;
+  padding:10px
+}
+th{
+  background-color:black;
+  color:white
+}
